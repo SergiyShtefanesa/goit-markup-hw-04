@@ -232,7 +232,6 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-
 }
 
 .benefits-content {
@@ -431,11 +430,11 @@ img {
   border-radius: 4px;
 }
 
-/* .client-link:hover,
+.client-link:hover,
 .client-link:focus {
   color: var(--accent-color);
   border-color: currentColor;
-} */
+}
 
 .client:not(:last-child) {
   margin-right: 30px;
