@@ -17,13 +17,12 @@
   --secondary-font-size: 16px;
 }
 
-/* ==============Общие стили и сброс============== */
+
 body {
   background-color: var(--light-color);
   font-size: var(--primary-font-size);
   color: var(--primery-color);
   font-family: var(--primery-font);
-  letter-spacing: 0, 03em;
 }
 
 img {
@@ -162,11 +161,10 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-
   background-image: linear-gradient(to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
-    url(/images/hero/hoverImg.jpg);
+    url(/images/hero/hover.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
