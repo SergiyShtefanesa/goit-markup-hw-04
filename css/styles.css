@@ -125,6 +125,8 @@ button {
   text-decoration: none;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 
