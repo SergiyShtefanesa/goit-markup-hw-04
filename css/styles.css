@@ -35,7 +35,6 @@ p {
   margin-bottom: 0;
 }
 
-
 ul,
 ol {
   margin-top: 0;
@@ -116,10 +115,15 @@ button {
 
 .menu-item {
   position: relative;
-  overflow: hidden;
+
+}
+
+.accent {
+  color: var(--accent-color);
 }
 
 .menu-link {
+  position: relative;
   color: var(--primery-color);
   font-weight: var(--medium-font);
   text-decoration: none;
@@ -127,6 +131,8 @@ button {
   letter-spacing: 0.02em;
   padding-bottom: 32px;
   padding-top: 32px;
+  bottom: -1px;
+  transition: var(--transition-dur-and-fun);
 }
 
 
@@ -141,6 +147,7 @@ button {
   height: 4px;
   border-radius: 2px;
   background-color: var(--accent-color);
+
 }
 
 .menu-link:hover,
@@ -150,7 +157,7 @@ button {
 
 .connection {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   margin-left: auto;
 }
 
@@ -343,6 +350,29 @@ button {
 
 .services-content .services-image:not(:last-child) {
   margin-right: 30px;
+}
+
+.services-image {
+  position: relative;
+}
+
+.wor-stail {
+  position: absolute;
+  transform-origin: bottom center;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.web-work {
+  margin-top: 27px;
+  margin-bottom: 27px;
+  color: var(--light-color);
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* =====================/products=======================*/
