@@ -114,12 +114,31 @@ button {
   color: var(--accent-color);
 }
 
+.menu-item {
+  position: relative;
+  overflow: hidden;
+}
+
 .menu-link {
   color: var(--primery-color);
   font-weight: var(--medium-font);
   text-decoration: none;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+
+
+.current::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
 }
 
 .menu-link:hover,
